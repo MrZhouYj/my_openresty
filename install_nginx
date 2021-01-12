@@ -1,0 +1,2 @@
+./configure --with-http_v2_module --with-http_gzip_static_module -j2 && make && cd openresty-1.19.3.1/build/nginx-1.19.3/objs/nginx && nginx -s stop && nginx -s stop && cp nginx  /usr/local/openresty/nginx/sbin/nginx && nginx -t && nginx
+
